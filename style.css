@@ -63,6 +63,7 @@ button {
     border-radius: 5px;
     color: #f9faf8;
     font-weight: bold;
+    min-height: 30px;
 }
 
 .header-image {
@@ -123,8 +124,36 @@ a {
 }
 
 .name {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: bold;
     display: flex;
     justify-content: flex-end;
+}
+
+.ad-section {
+    display: flex;
+    padding: 20px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    margin: 20px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.ad-left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.ad-header {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.white {
+    background-color: transparent;
+    border: 2px solid;
+    max-height: 30px;
+    text-align: center;
 }
