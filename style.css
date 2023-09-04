@@ -9,7 +9,7 @@ body {
 }
 
 .card-control {
-    margin: 0 40px;
+    margin: 0 100px;
 }
 
 .header {
@@ -70,10 +70,9 @@ button {
     min-height: 30px;
 }
 
-.header-image {
-    width: 980px;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.5)
+.header img {
+    width: auto;
+    height: 200px;
 }
 
 ul {
@@ -95,6 +94,7 @@ a {
     flex-direction: column;
     justify-content: center;
     padding: 0 20px;
+    margin-bottom: 30px;
 }
 
 .card-header {
@@ -105,11 +105,20 @@ a {
     margin-bottom: 30px;
 }
 
+.container img {
+    max-width: 150px;
+}
+
 .card-images {
     display: flex;
     flex-wrap: wrap;
     flex: auto;
     justify-content: center;
+    gap: 50px;
+}
+
+.container {
+    max-width: 150px;
 }
 
 .card-text {
@@ -127,7 +136,7 @@ a {
 .quote {
     font-size: 36px;
     font-style: oblique;
-    font-weight: 300;
+    font-weight: 100;
 }
 
 .name {
@@ -135,6 +144,7 @@ a {
     font-weight: bold;
     display: flex;
     justify-content: flex-end;
+    margin-top: 10px;
 }
 
 .ad-section {
@@ -142,7 +152,7 @@ a {
     padding: 20px;
     background-color: #3882f6;
     color: #f9faf8;
-    margin: 20px 40px;
+    margin: 30px 100px;
     border-radius: 10px;
     align-items: center;
 }
