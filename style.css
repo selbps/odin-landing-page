@@ -103,6 +103,9 @@ a {
 
 .card-images {
     display: flex;
+    flex-wrap: wrap;
+    flex: auto;
+    justify-content: center;
 }
 
 .card-text {
