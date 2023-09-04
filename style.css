@@ -27,6 +27,7 @@ body {
 .header-top {
     display: flex;
     justify-content: space-between;
+    flex-wrap: nowrap;
 }
 
 .header-right {
@@ -122,6 +123,7 @@ a {
 }
 
 .card-text {
+    margin-top: 5px;
     color: rgb(31, 41, 55, .75);
 }
 
