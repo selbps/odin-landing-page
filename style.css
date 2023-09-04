@@ -8,6 +8,10 @@ body {
     margin: 0;
 }
 
+.card-control {
+    margin: 0 40px;
+}
+
 .header {
     background-color: #1f2937;
     color: #f9faf8;
@@ -138,7 +142,7 @@ a {
     padding: 20px;
     background-color: #3882f6;
     color: #f9faf8;
-    margin: 20px;
+    margin: 20px 40px;
     border-radius: 10px;
     align-items: center;
 }
