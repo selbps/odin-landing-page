@@ -2,8 +2,10 @@
     border: 1px solid lightcoral;
 } */
 
+
 body {
     font-family: Roboto, sans-serif;
+    margin: 0;
 }
 
 .header {
@@ -15,6 +17,7 @@ body {
 .header-logo {
     font-size: 24px;
     font-weight: bolder;
+    margin-right: 20px;
 }
 
 .header-top {
@@ -25,6 +28,7 @@ body {
 .header-right {
     color: #E5E7EB;
     font-size: 18px;
+    margin-left: 20px;
 }
 
 .header-main {
@@ -37,13 +41,13 @@ body {
     display: flex;
     flex-direction: column;
     flex: auto;
-    margin-right: 20px;
+    margin-right: 40px;
     gap: 10px;
 }
 
 .hero {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 800;
 }
 
 .hero-subtext {
@@ -59,14 +63,12 @@ button {
     border-radius: 5px;
     color: #f9faf8;
     font-weight: bold;
-    justify-content: center;
-    align-items: center;
 }
 
 .header-image {
     width: 980px;
-    background-color: #E5E7EB;
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.5)
 }
 
 ul {
