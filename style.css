@@ -82,3 +82,28 @@ a {
     text-decoration: none;
     color: white;
 }
+
+.card {
+    text-align: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    padding: px;
+}
+
+.card-header {
+    margin-top: 30px;
+    font-size: 38px;
+    font-weight: 800;
+    color: #1f2937;
+    margin-bottom: 30px;
+}
+
+.card-images {
+    display: flex;
+}
+
+.card-text {
+    color: rgb(31, 41, 55, .5);
+}
