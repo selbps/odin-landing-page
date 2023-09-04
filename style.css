@@ -9,6 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1;
+    background-color: #1f2937;
 }
 
 .card-control {
@@ -98,7 +99,8 @@ a {
     flex-direction: column;
     justify-content: center;
     padding: 0 20px;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
+    background-color: #f9faf8;
 }
 
 .card-header {
@@ -150,6 +152,10 @@ a {
     display: flex;
     justify-content: flex-end;
     margin-top: 10px;
+}
+
+.ad-background {
+    background-color: #f9faf8;
 }
 
 .ad-section {
