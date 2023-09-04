@@ -157,3 +157,12 @@ a {
     max-height: 30px;
     text-align: center;
 }
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    padding: 20px;
+}
